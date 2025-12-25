@@ -5,11 +5,11 @@ The official codes for "DAMON: Difference-Aware Medical Visual Question Answerin
 
 Existing medical multimodal large language models have demonstrated promising performance in MVQA tasks; however, their generalization ability remains limited in difference-aware MVQA scenarios. This limitation arises because current difference-aware datasets predominantly focus on temporal variations of limited diseases within a single patient, while neglecting the complex clinical situations involving coexisting multiple diseases and overlapping symptoms. Furthermore, in multi-image input settings, disease-level semantic alignment becomes more challenging due to the presence of redundant and interfering visual features.
 ## Model Architecture
-<img src="Figure/model.pdf" width="1800" height="450" /> 
+<img src="Figure/model.png" width="1800" height="450" /> 
 
 The framework of DAMON. The DAMON model uses a visual feature encoder to encode multiple input medical images and simultaneously sends them to a disease classification model for a preliminary diagnosis of the primary disease. The preliminary disease information is then combined with the question to form a complete prompt, which, along with the images, is sent to the LLM for reasoning to obtain the final differential diagnosis results.
 ## Training Pipeline and Dataset Construction
-<img src="Figure/dataset.pdf" width="1800" height="450" /> 
+<img src="Figure/dataset.png" width="1800" height="450" /> 
 
 (a) Construction process of DAMON-QA dataset. The Prompt-based QA Generation and Self-consistency are based on ChatGPT. (b)Training Pipeline contains Medical Concept Alignment, Domain Concept Alignment, and Difference Semantic Learning.
 ## Required Environment
