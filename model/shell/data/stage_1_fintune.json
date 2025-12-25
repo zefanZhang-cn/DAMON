@@ -1,0 +1,39 @@
+{
+  "medicat_218k": {
+    "root": "/mnt/ssd/liyh/dataset/medicat/release/figures/",
+    "annotation": "/home/liyh/InternVL-main/internvl_chat/playground/opensource/medicat_218k.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": 226947
+  },
+
+  "pmcvqa_400k": {
+    "root": "/mnt/ssd/liyh/dataset/pmcvqa/images/",
+    "annotation": "/home/liyh/InternVL-main/internvl_chat/playground/opensource/pmcvqa_400k.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": 226947
+  },
+  "roco_raid_65k": {
+    "root": "/mnt/ssd/liyh/dataset/roco-dataset-master/data/train/radiology/images/",
+    "annotation": "/home/liyh/InternVL-main/internvl_chat/playground/opensource/roco_raid_65k.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": 65448
+  },
+
+  "imageclef_11k": {
+    "root": "/mnt/ssd/liyh/dataset/ImageClef-2019-VQA-Med-Training/Train_images/",
+    "annotation": "/home/liyh/InternVL-main/internvl_chat/playground/opensource/imageclef_11k.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": 12791
+  },
+  "slake_10k": {
+    "root": "/mnt/ssd/liyh/dataset/Slake1.0/imgs/",
+    "annotation": "/home/liyh/InternVL-main/internvl_chat/playground/opensource/slake_10k.jsonl",
+    "data_augment": false,
+    "repeat_time": 2,
+    "length": 9834
+  }
+}

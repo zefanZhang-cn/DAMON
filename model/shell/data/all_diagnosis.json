@@ -1,0 +1,8 @@
+{
+  "mimic_train_diagnosis_77k": {
+    "root": "/home/liyh/dataset/mimic-cxr-png/",
+    "annotation": "/home/liyh/InternVL-main/internvl_chat/playground/opensource/mimic_train_diagnosis.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": 9123}
+}

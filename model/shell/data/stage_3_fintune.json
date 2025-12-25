@@ -1,0 +1,20 @@
+{
+   "two_image_100k": {
+    "root": "/mnt/ssd/liyh/dataset/mimic-cxr-png/",
+    "annotation": "/home/liyh/InternVL-main/internvl_chat/playground/opensource/two_image_90k.jsonl",
+    "data_augment": true,
+    "repeat_time": 1,
+    "length": 90000},
+   "three_image_100k": {
+    "root": "/mnt/ssd/liyh/dataset/mimic-cxr-png/",
+    "annotation": "/home/liyh/InternVL-main/internvl_chat/playground/opensource/three_image_90k.jsonl",
+    "data_augment": true,
+    "repeat_time": 1,
+    "length": 90000},
+   "four_image_90k": {
+    "root": "/mnt/ssd/liyh/dataset/mimic-cxr-png/",
+    "annotation": "/home/liyh/InternVL-main/internvl_chat/playground/opensource/four_image_80k.jsonl",
+    "data_augment": true,
+    "repeat_time": 1,
+    "length": 80000}
+}

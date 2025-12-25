@@ -1,0 +1,14 @@
+{
+   "mimic_mrg_train_270k": {
+    "root": "/mnt/ssd/liyh/dataset/mimic-cxr-png/",
+    "annotation": "/home/liyh/InternVL-main/internvl_chat/playground/opensource/mimic_mrg_train_270k.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": 276777},
+   "mimic_nondiff_qa_500k": {
+    "root": "/mnt/ssd/liyh/dataset/mimic-cxr-png/",
+    "annotation": "/home/liyh/InternVL-main/internvl_chat/playground/opensource/mimic_nondiff_qa_500k.jsonl",
+    "data_augment": false,
+    "repeat_time": 1,
+    "length": 482697}
+}

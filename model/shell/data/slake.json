@@ -1,0 +1,8 @@
+{
+  "slake": {
+    "root": "/home/liyh/dataset/Slake1.0/imgs/",
+    "annotation": "/home/liyh/InternVL-main/internvl_chat/playground/opensource/single-image/slake_10k.jsonl",
+    "data_augment": true,
+    "repeat_time": 1,
+    "length": 9123}
+}
