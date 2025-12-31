@@ -1,5 +1,5 @@
 # Source Code of DAMON 
-The official codes for "DAMON: Difference-Aware Medical Visual Question Answering via Multimodal Large Language Model" (Authors: Zefan Zhang, Yanhui Li, Ruihong Zhao, Bai Tian, indicates equal contribution).
+The official codes for "DAMON: Difference-Aware Medical Visual Question Answering via Multimodal Large Language Model" (Authors: Zefan Zhang, Yanhui Li, Ruihong Zhao, Bai Tian).
 ## Motivation
 <img src="Figure/case.png" width="450" height="450" /> 
 
@@ -82,7 +82,7 @@ GPUS=1 sh evaluate.sh pretrained/InternVL2-2B [optional] --dynamic
 For more details on fine-tuning InternVL, please refer to the official documentation [here](https://internvl.readthedocs.io/en/latest/internvl2.0/quick_start.html).
 
 ## Acknowledge
-Sincerely thanks to [***Internvl***](https://github.com/OpenGVLab/InternVL) and [***EKAID***](https://github.com/Holipori/EKAID) for their contributions to this study. Undoubtedly, our success is inseparable from the efforts of any researcher who focuses on multimodal relation extraction tasks. Finally, we sincerely wish every researcher has wonderful scientific research!
+Sincerely thanks to [***Internvl***](https://github.com/OpenGVLab/InternVL) and [***EKAID***](https://github.com/Holipori/EKAID) for their contributions to this study.
 
 
 
