@@ -73,6 +73,16 @@ GPUS=8 PER_DEVICE_BATCH_SIZE=1 sh shell/internvl2.0/2nd_finetune/internvl2_2b_in
 ```
 More detailed parameter configurations can be found in: ``./model/shell/internvl2.0/2nd_finetune``
 
+Stage 1: Fine-tune using the data in the stage-1 folder.
+
+Stage 2: Fine-tune using the data in the stage-2 folder.
+
+Stage 3: Fine-tune using the data in the DAMON-QA folder.
+
+DPM: Fine-tune using the data in the DPM folder.
+
+Single-Image Testing: Test using the data in single-image.
+
 ## Evaluation
 You can evaluate the model using the following command:
 ```bash
