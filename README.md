@@ -4,7 +4,7 @@ The official codes for "DAMON: Difference-Aware Medical Visual Question Answerin
 ## Model Architecture
 <img src="Figure/model.png" width="1800" height="450" /> 
 
-The framework of DAMON. The DAMON model uses a visual feature encoder to encode multiple input medical images and simultaneously sends them to a disease classification model for a preliminary diagnosis of the primary disease. The preliminary disease information is then combined with the question to form a complete prompt, which, along with the images, is sent to the LLM for reasoning to obtain the final differential diagnosis results.
+The framework of DAMON. The DAMON model uses a visual feature encoder to encode multiple input medical images and simultaneously sends them to a disease classification model for a preliminary diagnosis of the primary disease. The preliminary disease information is then combined with the question to form a complete prompt, which, along with the images, is sent to the LLM for reasoning to obtain the final multi-image diagnosis results.
 ## Training Pipeline and Dataset Construction
 <img src="Figure/dataset.png" width="1800" height="450" /> 
 
