@@ -13,7 +13,7 @@ The framework of DAMON. The DAMON model uses a visual feature encoder to encode 
 
 (a) Construction process of DAMON-QA dataset. The Prompt-based QA Generation and Self-consistency are based on ChatGPT. (b)Training Pipeline contains Medical Concept Alignment, Domain Concept Alignment, and Difference Semantic Learning.
 
-The prompts for dataset construction and self-consistency validation can be found in this file  ``./model/Prompt``. 
+The prompts for dataset construction and self-consistency validation can be found in this file  ``./model/Prompt.txt``. 
 ## Required Environment
 To run the codes, you need to install the requirements for [RE](requirements.txt).
 
