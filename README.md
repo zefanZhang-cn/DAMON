@@ -1,9 +1,6 @@
 # Source Code of DAMON 
 The official codes for "DAMON: Difference-Aware Medical Visual Question Answering via Multimodal Large Language Model" (Authors: Zefan Zhang, Yanhui Li, Ruihong Zhao, Bai Tian).
-## Motivation
-<img src="Figure/case.png" width="450" height="450" /> 
 
-Existing medical multimodal large language models have demonstrated promising performance in MVQA tasks; however, their generalization ability remains limited in difference-aware MVQA scenarios. This limitation arises because current difference-aware datasets predominantly focus on temporal variations of limited diseases within a single patient, while neglecting the complex clinical situations involving coexisting multiple diseases and overlapping symptoms. Furthermore, in multi-image input settings, disease-level semantic alignment becomes more challenging due to the presence of redundant and interfering visual features.
 ## Model Architecture
 <img src="Figure/model.png" width="1800" height="450" /> 
 
@@ -11,7 +8,7 @@ The framework of DAMON. The DAMON model uses a visual feature encoder to encode 
 ## Training Pipeline and Dataset Construction
 <img src="Figure/dataset.png" width="1800" height="450" /> 
 
-(a) Construction process of DAMON-QA dataset. The Prompt-based QA Generation and Self-consistency are based on ChatGPT. (b)Training Pipeline contains Medical Concept Alignment, Domain Concept Alignment, and Difference Semantic Learning.
+(a) Construction process of the DAMON-QA dataset. The Prompt-based QA Generation and Self-consistency are based on ChatGPT. (b)Training Pipeline contains Medical Concept Alignment, Domain Concept Alignment, and Difference Semantic Learning.
 
 The prompts for dataset construction and self-consistency validation can be found in this file  ``./model/Prompt.txt``. 
 ## Required Environment
@@ -30,7 +27,7 @@ To run the codes, you need to install the requirements for [RE](requirements.txt
 * **SLAKE**: The dataset is available for download [SLAKE](https://huggingface.co/datasets/BoKelvin/SLAKE). A large-scale, semantically annotated, and knowledge-enhanced bilingual dataset designed for training and evaluating medical VQA systems.
 * **VQA-RAD**: The dataset is available for download [VQA-RAD](https://huggingface.co/datasets/flaviagiammarino/vqa-rad). The first manually constructed Med-VQA dataset in which clinicians asked naturally occurring questions about radiology images and provided reference answers.
 
-* Then you should put all images in ``dataset``.
+* Then you should put all images in the ``dataset``.
 
 The structured textual annotations of our **DAMON-QA** dataset, along with those of the aforementioned datasets, can be found at this link [link](https://pan.baidu.com/s/13Cer1XgmFCuuCc2NQZS_cg?pwd=9qw3).
 
