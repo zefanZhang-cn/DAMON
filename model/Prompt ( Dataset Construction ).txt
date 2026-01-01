@@ -1,0 +1,10 @@
+Dataset Construction :
+messages = [
+    {"role": "system",
+     "content": "Given the following two/three/four medical reports of X-ray images, compare them based on the presence of diseases, progression or changes in the conditions, and commonalities among the reports. Focus on factual differences without introducing any external information."},
+    {"role": "user", "content": "The report of Image 1:" + report_1},
+    {"role": "user", "content": " The report of Image 2:" + report_2},
+    # ...
+    {"role": "assistant",
+     "content": "Please summarize the differences between the images in a single paragraph of no more than 50 words, ensuring that no information outside the reports is included."}
+]
