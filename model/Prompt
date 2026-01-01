@@ -1,0 +1,18 @@
+Dataset Construction :
+messages = [
+    {"role": "system",
+     "content": "Given the following two/three/four medical reports of X-ray images, compare them based on the presence of diseases, progression or changes in the conditions, and commonalities between the reports. Focus on factual differences without introducing any external information."},
+    {"role": "user", "content": "The report of Image 1:" + report_1},
+    {"role": "user", "content": " The report of Image 2:" + report_2},
+    # ...
+    {"role": "assistant",
+     "content": "Please summarize the differences between the images in a single paragraph of no more than 50 words, ensuring that no information outside the reports is included."}
+]
+Self-consistency:
+messages = [
+    {"role": "system",
+    "content": "The following content is summarized based on the report list . Please answer whether the summary of each report in the content is based on the original report. Focus on the situations that the summary for the current report does not appear in the original report. You do not need to pay attention to the format and insufficient summary. If the summary has the content that does not appear in the original report, please answer 0, otherwise please answer 1. Do not answer other content."}
+    {"role": "user", "content": DAMON-QA},
+    {"role": "user", "content": "The report of Image 1:" + report_1},
+    {"role": "user", "content": " The report of Image 2:" + report_2}
+]
