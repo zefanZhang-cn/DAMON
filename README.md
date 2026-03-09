@@ -93,6 +93,12 @@ For more details on fine-tuning InternVL, please refer to the official documenta
 ## Acknowledge
 Sincerely thanks to [***Internvl***](https://github.com/OpenGVLab/InternVL) and [***EKAID***](https://github.com/Holipori/EKAID) for their contributions to this study.
 
-Zhang Z, Li Y, Zhao R, et al. DAMON: Difference-Aware Medical Visual Question Answering via Multimodal Large Language Model[J]. IEEE Journal of Biomedical and Health Informatics, 2026.
 
+@article{zhang2026damon,
+  title={DAMON: Difference-Aware Medical Visual Question Answering via Multimodal Large Language Model},
+  author={Zhang, Zefan and Li, Yanhui and Zhao, Ruihong and Bai, Tian},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2026},
+  publisher={IEEE}
+}
 ```
