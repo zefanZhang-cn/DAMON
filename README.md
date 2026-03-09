@@ -94,6 +94,8 @@ For more details on fine-tuning InternVL, please refer to the official documenta
 Sincerely thanks to [***Internvl***](https://github.com/OpenGVLab/InternVL) and [***EKAID***](https://github.com/Holipori/EKAID) for their contributions to this study.
 
 
+
+```
 @article{zhang2026damon,
   title={DAMON: Difference-Aware Medical Visual Question Answering via Multimodal Large Language Model},
   author={Zhang, Zefan and Li, Yanhui and Zhao, Ruihong and Bai, Tian},
@@ -101,4 +103,3 @@ Sincerely thanks to [***Internvl***](https://github.com/OpenGVLab/InternVL) and 
   year={2026},
   publisher={IEEE}
 }
-```
